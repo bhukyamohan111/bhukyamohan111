@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T04:55:25Z" name="Suite" finished-at="2022-04-19T04:55:49Z" duration-ms="24056">
+    <groups>
+    </groups>
+    <test started-at="2022-04-19T04:55:25Z" name="Test" finished-at="2022-04-19T04:55:49Z" duration-ms="24056">
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="launchChrome()[pri:0, instance:testCases.HomePageTest@455b6df1]" started-at="2022-04-19T10:25:25Z" name="launchChrome" finished-at="2022-04-19T10:25:33Z" duration-ms="8562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method signature="launchURL()[pri:0, instance:testCases.HomePageTest@455b6df1]" started-at="2022-04-19T10:25:33Z" name="launchURL" finished-at="2022-04-19T10:25:41Z" duration-ms="8077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="getItemsList()[pri:0, instance:testCases.HomePageTest@455b6df1]" started-at="2022-04-19T10:25:41Z" name="getItemsList" finished-at="2022-04-19T10:25:42Z" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemsList -->
+        <test-method signature="selectItem()[pri:0, instance:testCases.HomePageTest@455b6df1]" started-at="2022-04-19T10:25:42Z" name="selectItem" finished-at="2022-04-19T10:25:48Z" duration-ms="5812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItem -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:testCases.HomePageTest@455b6df1]" started-at="2022-04-19T10:25:48Z" name="closeChrome" finished-at="2022-04-19T10:25:49Z" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeChrome -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
