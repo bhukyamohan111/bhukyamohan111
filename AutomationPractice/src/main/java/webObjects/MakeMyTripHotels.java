@@ -42,5 +42,35 @@ public class MakeMyTripHotels {
 		element = driver.findElement(By.xpath("//ul[@role='listbox']/li//p[contains(@class,'locusLabel')]"));
 		return element;
 	}
+	
+	public static List<WebElement> cityList(WebDriver driver)
+	{
+		element1 = driver.findElements(By.xpath("//ul[@role='listbox']/li//p[contains(@class,'locusLabel')]"));
+		return element1;
+	}
+	
+	public static WebElement clicklangcardClose(WebDriver driver) {
+		element = driver.findElement(By.xpath("//span[@class='langCardClose']"));
+		return element;
 
+	}
+	
+	public static WebElement todayDate(WebDriver driver)
+	{
+		element = driver.findElement(By.xpath("//div[contains(@class,'DayPicker-Day--today')]"));
+		return element;
+	}
+	
+	public static WebElement selectDate(WebDriver driver, int date)
+	{
+		element = driver.findElement(By.xpath("//div[@aria-label='Mon Apr "+date+" 2022']"));
+		return element;
+	}
+	
+	public static WebElement selectDate(WebDriver driver, String date, String Month)
+	{
+		element = driver.findElement(By.xpath("//div[@class='DayPicker-Day' and contains(text(),'"+date+"') and contains(@aria-label,'"+Month+"')]"));
+		return element;
+	}
+	
 }

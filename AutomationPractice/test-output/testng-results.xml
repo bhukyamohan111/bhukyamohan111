@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="5" passed="5" failed="0" skipped="0">
+<testng-results total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-21T05:18:34Z" name="Default suite" finished-at="2022-04-21T05:19:00Z" duration-ms="26562">
+  <suite started-at="2022-04-22T04:51:00Z" name="Default suite" finished-at="2022-04-22T04:51:32Z" duration-ms="32067">
     <groups>
     </groups>
-    <test started-at="2022-04-21T05:18:34Z" name="Default test" finished-at="2022-04-21T05:19:00Z" duration-ms="26562">
+    <test started-at="2022-04-22T04:51:00Z" name="Default test" finished-at="2022-04-22T04:51:32Z" duration-ms="32067">
       <class name="testCases.MakeMyTripHotelsTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:34Z" name="launchBrowser" finished-at="2022-04-21T10:48:40Z" duration-ms="6368" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:00Z" name="launchBrowser" finished-at="2022-04-22T10:21:12Z" duration-ms="11929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="launchURL()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:40Z" name="launchURL" finished-at="2022-04-21T10:48:52Z" duration-ms="11628" status="PASS">
+        <test-method signature="launchURL()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:12Z" name="launchURL" finished-at="2022-04-22T10:21:24Z" duration-ms="11648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchURL -->
-        <test-method signature="loginClick()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:52Z" name="loginClick" finished-at="2022-04-21T10:48:52Z" duration-ms="539" status="PASS">
+        <test-method signature="loginClick()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:24Z" name="loginClick" finished-at="2022-04-22T10:21:24Z" duration-ms="605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginClick -->
-        <test-method signature="cityCLick()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:52Z" name="cityCLick" finished-at="2022-04-21T10:48:53Z" duration-ms="1055" status="PASS">
+        <test-method signature="cityCLick()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:24Z" name="cityCLick" finished-at="2022-04-22T10:21:26Z" duration-ms="1420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cityCLick -->
-        <test-method signature="cityInput()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:53Z" name="cityInput" finished-at="2022-04-21T10:48:57Z" duration-ms="3429" status="PASS">
+        <test-method signature="selectCity()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:26Z" name="selectCity" finished-at="2022-04-22T10:21:30Z" duration-ms="4623" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cityInput -->
-        <test-method signature="citySelect()[pri:0, instance:testCases.MakeMyTripHotelsTest@31add175]" started-at="2022-04-21T10:48:57Z" name="citySelect" finished-at="2022-04-21T10:49:00Z" duration-ms="3463" status="PASS">
+        </test-method> <!-- selectCity -->
+        <test-method signature="clicklongcardclose()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:30Z" name="clicklongcardclose" finished-at="2022-04-22T10:21:31Z" duration-ms="691" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- citySelect -->
+        </test-method> <!-- clicklongcardclose -->
+        <test-method signature="selectTodayDate()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:31Z" name="selectTodayDate" finished-at="2022-04-22T10:21:31Z" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTodayDate -->
+        <test-method signature="selectEndDate()[pri:0, instance:testCases.MakeMyTripHotelsTest@600b9d27]" started-at="2022-04-22T10:21:31Z" name="selectEndDate" finished-at="2022-04-22T10:21:32Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEndDate -->
       </class> <!-- testCases.MakeMyTripHotelsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
