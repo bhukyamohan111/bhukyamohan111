@@ -3,16 +3,15 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="testCases.MakeMyTripHotelsTest">
+      <class name="testCases.CalendarTest">
         <methods>
-          <include name="citySelect"/>
-          <include name="launchURL"/>
+          <include name="selectDate"/>
+          <include name="simpleDate"/>
+          <include name="selectYear"/>
+          <include name="closeChrome"/>
           <include name="launchChrome"/>
-          <include name="cityCLick"/>
-          <include name="cityInput"/>
-          <include name="loginClick"/>
         </methods>
-      </class> <!-- testCases.MakeMyTripHotelsTest -->
+      </class> <!-- testCases.CalendarTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
