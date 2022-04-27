@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Sai\AppData\Local\Temp\testng-eclipse-969376811\testng-customsuite.xml</span>
+                    <span>C:\Users\Sai\AppData\Local\Temp\testng-eclipse-473169519\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,6 +112,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testCases.CalendarTest" class="method navigator-link" hash-for-method="selectDate">selectDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.CalendarTest" class="method navigator-link" hash-for-method="selectMonth">selectMonth</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -165,6 +170,13 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="selectMonth">
+                  </a> <!-- selectMonth -->
+                  <span class="method-name">selectMonth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="selectYear">
                   </a> <!-- selectYear -->
                   <span class="method-name">selectYear</span>
@@ -182,7 +194,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Sai\AppData\Local\Temp\testng-eclipse-969376811\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Sai\AppData\Local\Temp\testng-eclipse-473169519\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -231,32 +243,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'launchURL')
 data.setCell(0, 2, 'testCases.CalendarTest')
-data.setCell(0, 3, 9562);
+data.setCell(0, 3, 7052);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'selectYear')
 data.setCell(1, 2, 'testCases.CalendarTest')
-data.setCell(1, 3, 2413);
+data.setCell(1, 3, 4843);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'simpleDate')
+data.setCell(2, 1, 'goToFrame')
 data.setCell(2, 2, 'testCases.CalendarTest')
-data.setCell(2, 3, 746);
+data.setCell(2, 3, 823);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'goToFrame')
+data.setCell(3, 1, 'selectMonth')
 data.setCell(3, 2, 'testCases.CalendarTest')
-data.setCell(3, 3, 591);
+data.setCell(3, 3, 691);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selectDate')
+data.setCell(4, 1, 'simpleDate')
 data.setCell(4, 2, 'testCases.CalendarTest')
-data.setCell(4, 3, 215);
+data.setCell(4, 3, 528);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectDate')
+data.setCell(5, 2, 'testCases.CalendarTest')
+data.setCell(5, 3, 329);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -289,27 +305,31 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">launchURL</span>
-                <span class="method-start">8426 ms</span>
+                <span class="method-start">9528 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">goToFrame</span>
-                <span class="method-start">18012 ms</span>
+                <span class="method-start">16587 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">simpleDate</span>
-                <span class="method-start">18613 ms</span>
+                <span class="method-start">17415 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectYear</span>
-                <span class="method-start">19374 ms</span>
+                <span class="method-start">17948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectMonth</span>
+                <span class="method-start">22795 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectDate</span>
-                <span class="method-start">21790 ms</span>
+                <span class="method-start">23489 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closeChrome</span>
-                <span class="method-start">22014 ms</span>
+                <span class="method-start">23828 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
