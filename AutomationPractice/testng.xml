@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Shopping cart">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="http://automationpractice.com/index.php"/>
+	<parameter name="itemName" value="Printed Summer Dress"/>
+	<test thread-count="5" name="Add item to cart">
+		<classes>
+			<class name="testCases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

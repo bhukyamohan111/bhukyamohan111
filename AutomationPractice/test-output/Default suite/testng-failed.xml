@@ -3,15 +3,15 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="testCases.CalendarTest">
+      <class name="testCases.HomePageTest">
         <methods>
-          <include name="selectDate"/>
-          <include name="simpleDate"/>
-          <include name="selectYear"/>
-          <include name="closeChrome"/>
-          <include name="launchChrome"/>
+          <include name="getItemsList"/>
+          <include name="ItemsCount"/>
+          <include name="launchURL"/>
+          <include name="selectItem"/>
+          <include name="validateTitle"/>
         </methods>
-      </class> <!-- testCases.CalendarTest -->
+      </class> <!-- testCases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

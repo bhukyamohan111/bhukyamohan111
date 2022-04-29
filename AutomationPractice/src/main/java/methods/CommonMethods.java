@@ -28,7 +28,7 @@ public class CommonMethods {
 		else
 		{
 			if (browser.equals("edge")) {
-				WebDriverManager.edgedriver().setup();
+				WebDriverManager.edgedriver().version("100.0.1185.50").setup();
 				driver = new EdgeDriver();
 			}
 		}
@@ -44,8 +44,8 @@ public class CommonMethods {
 	}
 
 	@SuppressWarnings("deprecation")
-	public static void launchPage() throws InterruptedException {
-		url = "http://automationpractice.com/index.php"; // dev
+	public static void launchPage(String link) throws InterruptedException {
+		url = link; // dev
 
 		// url = "https://opensource-demo.orangehrmlive.com/"; //prod
 

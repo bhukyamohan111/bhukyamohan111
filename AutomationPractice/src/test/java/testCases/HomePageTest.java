@@ -8,6 +8,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import methods.CommonMethods;
@@ -16,21 +17,22 @@ import webObjects.HomePage;
 public class HomePageTest extends CommonMethods{
 	
 	static ArrayList<String> itemsList= new ArrayList<String>();
-	static String itemName="Printed Summer Dress";
 	
+	@Parameters({"browser", "url"})
 	@BeforeTest
-	public static void launchChrome() throws InterruptedException
+	public static void launchChrome(String openBrowser, String url) throws InterruptedException
 	{
-		launchBrowser("chrome");
+		launchBrowser(openBrowser);
+		launchPage(url);
 	}
 	
-	
+	/*
 	@Test(priority=0)
 	public static void launchURL() throws InterruptedException
 	{
 		launchPage();
 	}
-	
+	*/
 	@Test(priority=1)
 	public static void ItemsCount() throws InterruptedException
 	{
@@ -57,10 +59,11 @@ public class HomePageTest extends CommonMethods{
 		
 	}
 	
+	@Parameters({"itemName"})
 	@Test(priority=3)
-	public static void selectItem() throws InterruptedException
+	public static void selectItem(String item) throws InterruptedException
 	{
-		addItemToCart(itemName);
+		addItemToCart(item);
 	}
 	
 	@Test(priority=4)

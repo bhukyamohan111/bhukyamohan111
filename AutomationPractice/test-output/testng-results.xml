@@ -1,45 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="6" passed="6" failed="0" skipped="0">
+<testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-27T05:12:07Z" name="Default suite" finished-at="2022-04-27T05:12:31Z" duration-ms="24582">
+  <suite started-at="2022-04-29T04:32:59Z" name="Shopping cart" finished-at="2022-04-29T04:33:13Z" duration-ms="13052">
     <groups>
     </groups>
-    <test started-at="2022-04-27T05:12:07Z" name="Default test" finished-at="2022-04-27T05:12:31Z" duration-ms="24582">
-      <class name="testCases.CalendarTest">
-        <test-method is-config="true" signature="launchChrome()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:07Z" name="launchChrome" finished-at="2022-04-27T10:42:16Z" duration-ms="9503" status="PASS">
+    <test started-at="2022-04-29T04:32:59Z" name="Add item to cart" finished-at="2022-04-29T04:33:13Z" duration-ms="13052">
+      <class name="testCases.HomePageTest">
+        <test-method is-config="true" signature="launchChrome(java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:00Z" name="launchChrome" finished-at="2022-04-29T10:03:11Z" duration-ms="11865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchChrome -->
-        <test-method signature="launchURL()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:16Z" name="launchURL" finished-at="2022-04-27T10:42:23Z" duration-ms="7052" status="PASS">
+        <test-method signature="ItemsCount()[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:11Z" name="ItemsCount" finished-at="2022-04-29T10:03:11Z" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchURL -->
-        <test-method signature="goToFrame()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:23Z" name="goToFrame" finished-at="2022-04-27T10:42:24Z" duration-ms="823" status="PASS">
+        </test-method> <!-- ItemsCount -->
+        <test-method signature="getItemsList()[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:11Z" name="getItemsList" finished-at="2022-04-29T10:03:12Z" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goToFrame -->
-        <test-method signature="simpleDate()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:24Z" name="simpleDate" finished-at="2022-04-27T10:42:25Z" duration-ms="528" status="PASS">
+        </test-method> <!-- getItemsList -->
+        <test-method signature="selectItem(java.lang.String)[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:12Z" name="selectItem" finished-at="2022-04-29T10:03:12Z" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Printed Summer Dress]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- simpleDate -->
-        <test-method signature="selectYear()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:25Z" name="selectYear" finished-at="2022-04-27T10:42:29Z" duration-ms="4843" status="PASS">
+        </test-method> <!-- selectItem -->
+        <test-method signature="validateTitle()[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:12Z" name="validateTitle" finished-at="2022-04-29T10:03:12Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectYear -->
-        <test-method signature="selectMonth()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:29Z" name="selectMonth" finished-at="2022-04-27T10:42:30Z" duration-ms="691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectMonth -->
-        <test-method signature="selectDate()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:30Z" name="selectDate" finished-at="2022-04-27T10:42:30Z" duration-ms="329" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectDate -->
-        <test-method is-config="true" signature="closeChrome()[pri:0, instance:testCases.CalendarTest@69f1a286]" started-at="2022-04-27T10:42:30Z" name="closeChrome" finished-at="2022-04-27T10:42:31Z" duration-ms="743" status="PASS">
+        </test-method> <!-- validateTitle -->
+        <test-method is-config="true" signature="closeChrome()[pri:0, instance:testCases.HomePageTest@3f57bcad]" started-at="2022-04-29T10:03:12Z" name="closeChrome" finished-at="2022-04-29T10:03:13Z" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeChrome -->
-      </class> <!-- testCases.CalendarTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testCases.HomePageTest -->
+    </test> <!-- Add item to cart -->
+  </suite> <!-- Shopping cart -->
 </testng-results>
